@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bayisa Portfolio</title>
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="/About.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./About.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="Project.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "ge60H6QXoSQqHg0f8",
+            });
+         })();
+         </script>
     
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">Bayisa</a>
+            <a href="#home" class="logo"><img src="./image/logo.jpg" alt="Bayisa" class="logo"></a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -32,9 +42,12 @@
     <main>
         <section id="about">
             <div class="about-container">
+                
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/250" alt="Bayisa Profile Picture">
+                    
+                    <img src="./image/bb1.jpg" alt="Bayisa Profile Picture">
                 </div>
+                <span>I am Bayisa</span>
                 <div class="about-content">
                     <h2>About Me</h2>
                     <p>
@@ -49,6 +62,7 @@
                          contributing to open-source projects, and staying updated with the latest industry trends.
                     </p>
                     <a href="#contact" class="cta-button">Get in Touch</a>
+                    <a href="./image/BayisaBalchaTekaResume (1).pdf" download="BayisaBalchaResume.pdf" class="cta-button">Download Resume as PDF</a>
                 </div>
             </div>
         </section>
@@ -60,7 +74,7 @@
             <div class="skills-grid">
                
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="HTML Icon">
+                    <img src="./image/html.png" alt="HTML Icon">
                     <h3>HTML</h3>
                     <p>Proficient in creating semantic and accessible web structures.</p>
                     <div class="progress-bar">
@@ -70,9 +84,9 @@
                 </div>
                 
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="CSS Icon">
+                    <img src="./image/tailwind.jpg" alt="CSS Icon">
                     <h3>CSS</h3>
-                    <p>Skilled in styling web pages with modern CSS techniques.</p>
+                    <p>Skilled in styling web pages with modern CSS techniques,and frame work</p>
                     <div class="progress-bar">
                         <div class="progress" style="width: 85%;"></div>
                     </div>
@@ -80,8 +94,8 @@
                 </div>
              
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="JavaScript Icon">
-                    <h3>JavaScript</h3>
+                    <img src="./image/react.png" alt="JavaScript Icon">
+                    <h3>JavaScript/React </h3>
                     <p>Experienced in building interactive and dynamic web features.</p>
                     <div class="progress-bar">
                         <div class="progress" style="width: 75%;"></div>
@@ -90,8 +104,8 @@
                 </div>
                 <!-- Skill Card 4 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="React Icon">
-                    <h3>React</h3>
+                    <img src="./image/n.png" alt="React Icon">
+                    <h3>Next</h3>
                     <p>Knowledgeable in building single-page applications with React.</p>
                     <div class="progress-bar">
                         <div class="progress" style="width: 70%;"></div>
@@ -100,7 +114,7 @@
                 </div>
                 <!-- Skill Card 5 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="Node.js Icon">
+                    <img src="./image/node.png" alt="Node.js Icon">
                     <h3>Node.js</h3>
                     <p>Familiar with server-side development using Node.js.</p>
                     <div class="progress-bar">
@@ -110,8 +124,8 @@
                 </div>
                 <!-- Skill Card 6 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="Git Icon">
-                    <h3>Git</h3>
+                    <img src="./image/Git.jpg" alt="Git Icon">
+                    <h3>Git and Github</h3>
                     <p>Experienced in version control and collaboration using Git.</p>
                     <div class="progress-bar">
                         <div class="progress" style="width: 80%;"></div>
@@ -120,7 +134,7 @@
                 </div>
                 <!-- Skill Card 7 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="Python Icon">
+                    <img src="./image/python.jpg" alt="Python Icon">
                     <h3>Python</h3>
                     <p>Skilled in scripting and data analysis with Python.</p>
                     <div class="progress-bar">
@@ -130,8 +144,8 @@
                 </div>
                 <!-- Skill Card 8 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="SQL Icon">
-                    <h3>SQL</h3>
+                    <img src="./image/mango.jpg" alt="SQL Icon">
+                    <h3>SQL and MangoDB</h3>
                     <p>Proficient in managing and querying relational databases.</p>
                     <div class="progress-bar">
                         <div class="progress" style="width: 75%;"></div>
@@ -140,7 +154,7 @@
                 </div>
                 <!-- Skill Card 9 -->
                 <div class="skill-card">
-                    <img src="https://via.placeholder.com/60" alt="Figma Icon">
+                    <img src="./image/figmad.jpg" alt="Figma Icon">
                     <h3>Figma</h3>
                     <p>Experienced in designing UI/UX prototypes with Figma.</p>
                     <div class="progress-bar">
@@ -164,76 +178,93 @@
                     <!-- Card 1: CRUD Operations -->
                     <div class="project-card card-1">
                         <div class="card-image">
-                            <img src="https://via.placeholder.com/400x300?text=CRUD+Operations" alt="CRUD Operations" class="main-image">
+                            <img src="./image/bb3.png" alt="onlilearning" class="main-image">
                             <div class="card-decor">
-                                <img src="https://img.icons8.com/ios/50/ffffff/edit.png" alt="Edit Icon" class="decor-icon">
+                                <img src="./image/bb3.png" alt="Edit Icon" class="decor-icon">
                             </div>
                         </div>
                         <div class="card-content">
-                            <h3 class="card-title">CRUD Operations</h3>
-                            <p class="card-description">Effortlessly manage recipe data with Create, Read, Update, and Delete functions.</p>
+                            <h3 class="card-title">Online learning App</h3>
+                            <p class="card-description">An online learning app is a digital platform that provides educational content and resources over the internet. These apps offer a wide range of courses, tutorials, and interactive lessons across various subjects,
+                                 making learning accessible anytime and anywhere</p>
                         </div>
                     </div>
     
                     <!-- Card 2: Data Integrity -->
                     <div class="project-card card-2">
                         <div class="card-image">
-                            <img src="https://via.placeholder.com/400x300?text=Data+Integrity" alt="Data Integrity" class="main-image">
+                            <img src="./image/e2.png" alt="Data Integrity" class="main-image">
                             <div class="card-decor">
-                                <img src="https://img.icons8.com/ios/50/ffffff/lock.png" alt="Lock Icon" class="decor-icon">
+                                <img src="./image/e1.png" alt="Lock Icon" class="decor-icon">
                             </div>
                         </div>
                         <div class="card-content">
-                            <h3 class="card-title">Data Integrity</h3>
-                            <p class="card-description">Robust validation and sanitization for reliable, secure recipe data.</p>
+                            <h3 class="card-title">Ecommerce-website</h3>
+                            <p class="card-description"> e-commerce website is an online platform where businesses sell products or services to customers. It allows users to browse items, add them to
+                                 a cart, and complete purchases securely</p>
                         </div>
                     </div>
     
                     <!-- Card 3: Secure Access -->
                     <div class="project-card card-3">
                         <div class="card-image">
-                            <img src="https://via.placeholder.com/400x300?text=Secure+Access" alt="Secure Access" class="main-image">
+                            <img src="./image/appdata.png" alt="Secure Access" class="main-image">
                             <div class="card-decor">
-                                <img src="https://img.icons8.com/ios/50/ffffff/shield.png" alt="Shield Icon" class="decor-icon">
+                                <img src="./image/ap1.png" alt="Shield Icon" class="decor-icon">
                             </div>
                         </div>
                         <div class="card-content">
-                            <h3 class="card-title">Secure Access</h3>
-                            <p class="card-description">JWT authentication and role-based authorization for user protection.</p>
+                            <h3 class="card-title">AppData</h3>
+                            <p class="card-description">An app that uses Appdata 
+                                for food delivery leverages user and operational data to enhance the experience.</p>
                         </div>
                     </div>
     
-                    <!-- Card 4: Scalable Design -->
+                    
                     <div class="project-card card-4">
                         <div class="card-image">
-                            <img src="https://via.placeholder.com/400x300?text=Scalable+Design" alt="Scalable Design" class="main-image">
+                            <img src="./image/ov2.png" alt="Scalable Design" class="main-image">
                             <div class="card-decor">
-                                <img src="https://img.icons8.com/ios/50/ffffff/rocket.png" alt="Rocket Icon" class="decor-icon">
+                                <img src="./image/ov1.png" alt="Rocket Icon" class="decor-icon">
                             </div>
                         </div>
                         <div class="card-content">
-                            <h3 class="card-title">Scalable Design</h3>
-                            <p class="card-description">Built with MongoDB Atlas, caching, and rate limiting for growth.</p>
+                            <h3 class="card-title">Online-vote-app</h3>
+                            <p class="card-description">An online vote app is a digital platform that enables users to cast votes electronically via the internet. It simplifies the voting process by allowing participants to vote securely from their devices, 
+                                such as smartphones, tablets, or computers</p>
                         </div>
                     </div>
     
-                    <!-- Card 5: MVP Ready -->
-                    <div class="project-card card-5">
-                        <div class="card-image">
-                            <img src="https://via.placeholder.com/400x300?text=MVP+Ready" alt="MVP Ready" class="main-image">
-                            <div class="card-decor">
-                                <img src="https://img.icons8.com/ios/50/ffffff/chef-hat.png" alt="Chef Hat Icon" class="decor-icon">
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <h3 class="card-title">MVP Ready</h3>
-                            <p class="card-description">Core API, error handling, and Swagger documentation for immediate use.</p>
-                            <a href="#documentation" class="cta-button">Discover Documentation</a>
-                        </div>
-                    </div>
+                  
+                   
                 </div>
             </div>
         </section>
+    </main>
+    <main>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h1>Contact Me</h1>
+              
+             
+                <form id="contactForm" class="contact-form">
+                    <input type="text" name="name" id="name" placeholder="Your Name..." required>
+                    <input type="email" name="email" id="email" placeholder="Your Email..." required>
+                    <textarea id="message" name="message" placeholder="Your Message..." ></textarea>
+                    <button type="submit" onclick="sendEmail()">Send</button>
+                </form>
+          
+                <p id="formMessage" style="color: green; display: none;">Message sent successfully!</p>
+            </div>
+        </section>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 . All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </footer>
     </main>
     <script src="/main.js"></script>
 </body>
