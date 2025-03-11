@@ -12,7 +12,7 @@
     padding: 0 20px;
 }
 
-/* Section Header */
+*/
 .section-header {
     text-align: center;
     margin-bottom: 80px;
@@ -23,7 +23,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #233ed8;
+    color: 007BFF8;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
     opacity: 0;
@@ -44,7 +44,7 @@
     animation-delay: 0.4s;
 }
 
-/* Project Cards */
+
 .project-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -321,7 +321,7 @@ h1, h2 {
     background-color: #0056b3;
 }
 
-/* Footer Section */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -338,9 +338,49 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .contact-section {
         padding: 20px;
+    }
+}
+.logo-contact{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.imgelogo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foter {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    .foter {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
     }
 }
