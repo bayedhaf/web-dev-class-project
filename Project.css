@@ -1,7 +1,7 @@
 
 .project-section {
     padding: 100px 0;
-    background: linear-gradient(135deg, #f0eeee 0%, #bdbbbb 50%, #fcf8f2 100%);
+    background: linear-gradient(135deg, #e2f3f1 0%, #e7eaee 50%, #d3ece9 100%);
     position: relative;
     overflow: hidden;
 }
@@ -12,7 +12,7 @@
     padding: 0 20px;
 }
 
-*/
+
 .section-header {
     text-align: center;
     margin-bottom: 80px;
@@ -34,7 +34,7 @@
 
 .section-subtitle {
     font-size: 1.4rem;
-    color: #fff;
+    color:rgb(61, 97, 114);
     opacity: 0.9;
     max-width: 900px;
     margin: 0 auto;
@@ -143,7 +143,7 @@
 
 .card-description {
     font-size: 1.1rem;
-    color: black;
+    color: rgb(109, 122, 129);
     line-height: 1.6;
     opacity: 0;
     transform: translateY(20px);
@@ -174,7 +174,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -198,7 +198,6 @@
     }
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .project-cards {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
