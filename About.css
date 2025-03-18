@@ -51,7 +51,7 @@ main {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(107, 175, 187, 0.2);
     transition: transform 0.3s ease;
 }
 
@@ -87,6 +87,8 @@ main {
     color: #728588;
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-content .cta-button {
@@ -130,8 +132,8 @@ main {
     }
 
     .about-image img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     .about-content h2 {

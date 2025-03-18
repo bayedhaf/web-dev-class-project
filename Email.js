@@ -18,7 +18,7 @@ setTimeout(() => {
   
     emailjs.send("service_7cjes39", "template_s4nyfbh", parms)
         .then(() => {
-            alert('The message is successfully sent');
+            alert('Successfully sent! THank you');
         })
         .catch((error) => {
             console.error('Failed to send message:', error);
